@@ -57,3 +57,6 @@ Write-Host "API client generation complete."
 
 /workspace I would like to push this code to my github account. can you create the commands for me please and suggest a repo-url for the remote add origin call with my github account, mthemark, and the sln name as the repo name. please make the repo public.
 DEVELOPER - create new repo as directed in suggestions, then run commands suggested.
+
+
+/workspace please update the readme.md
