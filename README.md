@@ -8,6 +8,7 @@ This project is designed to automate testing for REST APIs using a generated API
   - **ApiClient.csproj**: Project file for the API client library.
   - **Generated**: Directory containing the generated API client files based on the OpenAPI specification.
   - **README.md**: Documentation for the API client library.
+  - **generate-client.ps1**: PowerShell script to generate the API client from the OpenAPI specification.
 
 - **src/ApiTests**: Contains the xUnit test project for testing the API client.
   - **ApiTests.csproj**: Project file for the xUnit test project.
@@ -24,7 +25,7 @@ This project is designed to automate testing for REST APIs using a generated API
 1. Clone the repository to your local machine.
 2. Ensure you have the necessary tools installed, such as .NET SDK.
 3. Navigate to the project directory and restore the dependencies:
-   ```
+   ```sh
    dotnet restore
    ```
 4. To generate the API client from the OpenAPI specification, use the OpenAPI Generator tool.
